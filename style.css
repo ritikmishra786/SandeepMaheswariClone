@@ -1,0 +1,438 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color:#e3e0e0;;
+}
+
+header{
+    
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+
+/* ---------------------------------------Navbar------------------------ */
+
+.navbar ul{
+    overflow: hidden;
+    border-bottom: 2px solid red;
+    
+
+}
+
+.navbar li{
+    display: inline;
+    float: right;
+    list-style: none;
+    margin: 10px 7px;
+    
+}
+.navbar li a{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding: 3px 6px;
+    text-decoration: none;
+    color: #6c6969;
+}
+.navbar li a:hover{
+    background-color: rgba(53, 160, 248, 0.801);
+}
+.navbar .logo img{
+    width: 35%;
+    margin: 30px 0px -60px 10px;
+}
+
+#fw .home{
+    border-top: 3px solid #dbdbd6;
+    margin-top: 35px;
+    
+}
+/*  */
+
+        /*
+         Regular 400
+         Medium 500
+        Bold 700 
+        */
+#fw .icon {
+    display: inline;
+    float: right;
+    margin: 5px;
+}
+#fw .icon a i{
+    padding: 2px;
+}
+.icon a.youtube{
+    color: red;
+}
+.icon a.fb{
+    color: blue;
+}
+.icon a.twitter{
+    color: rgb(117, 168, 250);
+}
+.icon a.insta{
+    color: red;
+}
+
+/* ----------------------------------------HOME SECTION---------------------------------- */
+
+#home {
+    border-top: 3px solid #dbd7d7;
+    margin-top: 31px;
+}
+#home .img{
+    
+    border-bottom: 3px solid #dbd7d7 ;
+}
+#home .para{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 30px 40px 0px 40px;
+    text-align: justify;
+    color: gray;
+    
+}
+.para  a{
+    color: rgb(45, 114, 243);
+    text-decoration: none;
+    margin-left: 1px;
+}
+.para a:hover{
+    border-bottom: 2px solid rgb(155, 153, 153);
+}
+#home h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 60px;
+    
+}
+/* ---------------------------------Button Styling------------------------------- */
+
+#home .btn{
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 10px 300px;
+    background-color:#ca3030;
+    border-radius: 30px;
+    
+}
+#home .btn a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+}
+/* ----------------------------------------Box Styling-------------------------------- */
+
+
+#fw .container{
+    font-family: 'Barlow Condensed', sans-serif;
+ 
+    display: flex;
+    margin-top: 25px;
+    
+}
+#fw .container .box1{
+    
+    width: 50%;
+    padding: 15px 0px 15px 10px;
+    background-color: #dd7474;
+    color: white;
+}
+#fw .container .box2{
+    
+    width: 50%;
+    padding: 15px 0px 15px 10px;
+    background-color: #3fa6d0;
+    color: white;
+    
+}
+.container .box1 p{
+    padding: 12px 0px;
+    text-align: initial;
+}
+.container .box2 p{
+    padding: 12px 0px;
+    text-align: initial;
+}
+
+
+.container .box1 .small{
+    /* border: 2px solid black; */
+    margin: 5px 19px 0px 0px;
+    padding: 8px 5px;
+    background-color: white;
+}
+.container .box1 .small p{
+    color: gray;
+    display: inline;
+}
+.container .box1 .small .tab{
+    color: red;
+}
+
+.container .box1 .small .link{
+    text-decoration: none;
+    margin-left: 140px;
+    color: #605c5c;
+}
+
+.container .box2 .small{
+    /* border: 2px solid black; */
+    margin: 5px 19px 0px 0px;
+    padding: 8px 5px;
+    background-color: white;
+}
+.container .box2 .small p{
+    color: gray;
+    display: inline;
+}
+.container .box2 .small .tab{
+    color: rgb(0, 110, 255);
+}
+
+.container .box2 .small .link{
+    text-decoration: none;
+    margin-left: 140px;
+    color: #605c5c;
+}
+
+/* ******************************************THe PERSON************************************* */
+
+#main {
+    border-top: 3px solid #dbd7d7;
+    margin-top: 31px;
+
+
+}
+
+#main .img{
+    margin:1px 75px;
+}
+
+#main .info {
+    
+    font-size: 1.2rem;
+    margin:15px 12px 0px 19px;
+   
+}
+#main .info h1{
+    /* font-family: 'Pattaya', sans-serif; */
+    font-family: 'Playball', cursive;
+    color: #df5656;
+    font-size: 2.3rem;
+    border-bottom: 3px solid #dfdbdb;
+    margin-top: 30px;
+   
+}
+#main .info .p1 .color{
+    color: #4c4cf2;
+}
+#main .info .p1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 20px 45px 0px 20px;
+    text-align: justify;
+    color: gray;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+}
+#main .info ul li{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 10px 25px 0px 15px;
+    text-align: justify;
+    color: gray;
+    letter-spacing: 0.2px;
+}
+/* *****************************************Recommanded Books***************************** */
+
+#Bmain {
+    border-top: 3px solid #dbd7d7;
+    margin-top: 31px;
+
+
+}
+
+#Bmain .img{
+    margin:1px 75px;
+}
+
+#Bmain .about {
+    
+    font-size: 1.2rem;
+    margin:15px 12px 0px 19px;
+   
+}
+#Bmain .about h1{
+        /* font-family: 'Pattaya', sans-serif; */
+        font-family: 'Playball', cursive;
+        color: #df5656;
+        font-size: 2.3rem;
+        margin-top: 30px;
+      
+     
+}
+#Bmain .about ul{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#Bmain .about ul .gap{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding: 5px;
+    font-size: initial;
+}
+#Bmain .about ul .gap p{
+    color: #db2a2a;
+}
+#Bmain .about ul .gap .link{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding: 3px 6px;
+    text-decoration: none;
+    color: #308ad9;
+}
+  .link:hover{
+      border-bottom: 1px solid #308ad9;
+  }
+
+
+ /* -*****************************************CONTACT*******************************  */
+ #Cmain {
+    border-top: 3px solid #dbd7d7;
+    margin-top: 31px;
+
+
+}
+#Cmain .least{
+    margin-left: 50px;
+}
+#Cmain .least h1{
+    /* font-family: 'Pattaya', sans-serif; */
+   
+    font-family: 'Playball', cursive;
+    color: #df5656;
+    font-size: 2.7rem;
+    margin-top: 30px;
+}
+
+#Cmain .least .para{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    /* font-size: 1.2rem; */
+    font-size: initial;
+    margin: 30px 40px 0px 0px;
+    text-align: justify;
+    color: gray;
+    line-height: 35px;
+}
+#Cmain .btn{
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 35px 0px;
+    background-color:#a82626;
+    border-radius: 30px;
+    
+}
+#Cmain .btn a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+}
+#Cmain .least .h{
+    border-top: 2px solid #dbd7d7;
+    font-family: 'Playball', cursive;
+    color: #df5656;
+    font-size: 2.7rem;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+#Cmain .least span{
+    color: blue;
+}
+
+/* *************************************Register ********************************* */
+#Rmain {
+    border-top: 3px solid #dbd7d7;
+    margin-top: 31px;
+
+
+}
+
+#Rmain .img{
+    margin:1px 75px;
+}
+#Rmain  .para{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 20px 45px 0px 20px;
+    text-align: justify;
+    color: #595555;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+}
+#Rmain .change{
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 20px 45px 0px 20px;
+    text-align: justify;
+    color: red;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+}
+
+/* ********************************register***************************** */
+
+#Rmain .form{
+    
+    margin-top: 31px;
+    padding: 4px 50px;
+margin: 12px 15px;
+}
+#Rmain .form .form-group{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 0px 45px 0px 20px;
+    color: #575757;
+}
+
+#Rmain .form .form-group input{
+     width: 30%;
+     display: block;
+     margin-top: 5px;
+     padding: 5px;
+     border-radius: 5px;
+}
+#Rmain .form .form-group select{
+    width: 30%;
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.form-btn{
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    padding: 4px 50px;
+    margin: 12px 15px;
+    background-color:#a82626;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+}
